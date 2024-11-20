@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>Eden Turner</Author>
+ </Creator>
+ <Manufacturer>Gear4music</Manufacturer>
+ <Model>Cosmos 90</Model>
+ <Type>LED Bar (Beams)</Type>
+ <Channel Name="Mode" Preset="NoFunction"/>
+ <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Strobe" Preset="NoFunction"/>
+ <Channel Name="Red 1" Preset="IntensityRed"/>
+ <Channel Name="Green 1" Preset="IntensityGreen"/>
+ <Channel Name="Blue 1" Preset="IntensityBlue"/>
+ <Channel Name="Red 2" Preset="IntensityRed"/>
+ <Channel Name="Green 2" Preset="IntensityGreen"/>
+ <Channel Name="Blue 2" Preset="IntensityBlue"/>
+ <Channel Name="Red 3" Preset="IntensityRed"/>
+ <Channel Name="Green 3" Preset="IntensityGreen"/>
+ <Channel Name="Blue 3" Preset="IntensityBlue"/>
+ <Channel Name="Red 4" Preset="IntensityRed"/>
+ <Channel Name="Green 4" Preset="IntensityGreen"/>
+ <Channel Name="Blue 4" Preset="IntensityBlue"/>
+ <Mode Name="Basic">
+  <Channel Number="0" ActsOn="0">Mode</Channel>
+  <Channel Number="1" ActsOn="1">Master dimmer</Channel>
+  <Channel Number="2" ActsOn="2">Strobe</Channel>
+  <Channel Number="3" ActsOn="3">Red 1</Channel>
+  <Channel Number="4" ActsOn="4">Green 1</Channel>
+  <Channel Number="5" ActsOn="5">Blue 1</Channel>
+  <Channel Number="6" ActsOn="6">Red 2</Channel>
+  <Channel Number="7" ActsOn="7">Green 2</Channel>
+  <Channel Number="8" ActsOn="8">Blue 2</Channel>
+  <Channel Number="9" ActsOn="9">Red 3</Channel>
+  <Channel Number="10" ActsOn="10">Green 3</Channel>
+  <Channel Number="11" ActsOn="11">Blue 3</Channel>
+  <Channel Number="12" ActsOn="12">Red 4</Channel>
+  <Channel Number="13" ActsOn="13">Green 4</Channel>
+  <Channel Number="14" ActsOn="14">Blue 4</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="6" Width="910" Height="242" Depth="48"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="90" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
