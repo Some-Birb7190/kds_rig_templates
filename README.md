@@ -7,7 +7,9 @@ The rig template uses a custom fixture pattern for the Gear4music Cosmos 90s, `.
 This fixture pattern only supports the basic RGBI (Red, Green, Blue, Intensity) input for the Cosmos 90s, the `mode` and `strobe` sliders are not assigned and will not be patched when adding the fixture to a workspace.  
 As per the society's request, strobe lights are **not** permitted and this feature should **not** be added to the fixture pattern. Any modification of this fixture pattern should be authorized by the currently standing tech officer and checksums are to be edited to reflect the changes (checksums are provided at the bottom of this document).  
   
-A source copy of this document can be obtained [here](https://github.com/Some-Birb7190/kds_rig_templates) via GitHub and should be transferred to the currently standing tech officer (or appropriate delegate) as the society continues.  
+A source copy of this document can be obtained [here](https://github.com/Some-Birb7190/kds_rig_templates) via GitHub.  
+  
+Ownership of this repository should be transferred to the currently standing tech officer (or appropriate delegate) as the society continues.  
 ## Checksums  
 `./5_bar_rig.qxw`:  
 - Sha256: 3f948765bca4cb3b6dc1c46f3ae9c28aed23b7ff7c93961c9ddad4291593e393  
