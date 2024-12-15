@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
-  <Author>Eden Turner</Author>
+  <Author>KDS Tech</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
@@ -12,16 +12,13 @@
    <Universe Name="Universe 1" ID="0">
     <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
-   <Universe Name="Universe 2" ID="1"/>
-   <Universe Name="Universe 3" ID="2"/>
-   <Universe Name="Universe 4" ID="3"/>
   </InputOutputMap>
   <Fixture>
    <Manufacturer>Stairville</Manufacturer>
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>0</ID>
-   <Name>LED PAR64</Name>
+   <Name>Fix 1</Name>
    <Universe>0</Universe>
    <Address>0</Address>
    <Channels>7</Channels>
@@ -31,7 +28,7 @@
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>1</ID>
-   <Name>LED PAR64 #1</Name>
+   <Name>Fix 2</Name>
    <Universe>0</Universe>
    <Address>7</Address>
    <Channels>7</Channels>
@@ -41,7 +38,7 @@
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>2</ID>
-   <Name>LED PAR64 #2</Name>
+   <Name>Fix 3</Name>
    <Universe>0</Universe>
    <Address>14</Address>
    <Channels>7</Channels>
@@ -51,7 +48,7 @@
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>3</ID>
-   <Name>LED PAR64 #3</Name>
+   <Name>Fix 4</Name>
    <Universe>0</Universe>
    <Address>21</Address>
    <Channels>7</Channels>
@@ -61,7 +58,7 @@
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>4</ID>
-   <Name>LED PAR64 #4</Name>
+   <Name>Fix 5</Name>
    <Universe>0</Universe>
    <Address>28</Address>
    <Channels>7</Channels>
@@ -71,7 +68,7 @@
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>5</ID>
-   <Name>LED PAR64 #5</Name>
+   <Name>Fix 6</Name>
    <Universe>0</Universe>
    <Address>35</Address>
    <Channels>7</Channels>
@@ -81,7 +78,7 @@
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>6</ID>
-   <Name>LED PAR64 #6</Name>
+   <Name>Fix 7</Name>
    <Universe>0</Universe>
    <Address>42</Address>
    <Channels>7</Channels>
@@ -91,7 +88,7 @@
    <Model>LED PAR64</Model>
    <Mode>Normal</Mode>
    <ID>7</ID>
-   <Name>LED PAR64 #7</Name>
+   <Name>Fix 8</Name>
    <Universe>0</Universe>
    <Address>49</Address>
    <Channels>7</Channels>
@@ -101,7 +98,7 @@
    <Model>Cosmos 90</Model>
    <Mode>Basic</Mode>
    <ID>8</ID>
-   <Name>Cosmos 90 #1</Name>
+   <Name>Fix 9-12</Name>
    <Universe>0</Universe>
    <Address>56</Address>
    <Channels>15</Channels>
@@ -111,7 +108,7 @@
    <Model>Cosmos 90</Model>
    <Mode>Basic</Mode>
    <ID>9</ID>
-   <Name>Cosmos 90 #2</Name>
+   <Name>fix 13-16</Name>
    <Universe>0</Universe>
    <Address>71</Address>
    <Channels>15</Channels>
@@ -121,7 +118,7 @@
    <Model>Cosmos 90</Model>
    <Mode>Basic</Mode>
    <ID>10</ID>
-   <Name>Cosmos 90 #3</Name>
+   <Name>Fix 17-20</Name>
    <Universe>0</Universe>
    <Address>86</Address>
    <Channels>15</Channels>
@@ -133,11 +130,10 @@
   <ChannelsGroup ID="4" Name="Par Reds" Value="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</ChannelsGroup>
   <ChannelsGroup ID="5" Name="Par Greens" Value="0">0,1,1,1,2,1,3,1,4,1,5,1,6,1,7,1</ChannelsGroup>
   <ChannelsGroup ID="6" Name="Par Blues" Value="0">0,2,1,2,2,2,3,2,4,2,5,2,6,2,7,2</ChannelsGroup>
-  <ChannelsGroup ID="7" Name="Cosmos Reds" Value="0">8,3,8,6,8,9,8,12,9,3,9,6,9,9,9,12,10,3,10,6,10,9,10,12</ChannelsGroup>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>1</ChannelStyle>
-   <ValueStyle>1</ValueStyle>
+   <ValueStyle>0</ValueStyle>
    <Grid Width="5" Height="3" Depth="5" Units="0"/>
   </Monitor>
  </Engine>
@@ -146,10 +142,282 @@
    <Appearance>
     <FrameStyle>None</FrameStyle>
     <ForegroundColor>Default</ForegroundColor>
-    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundColor>4286019195</BackgroundColor>
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
+   <Clock Type="Clock" Caption="" ID="0">
+    <WindowState Visible="True" X="645" Y="5" Width="225" Height="70"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Ubuntu,40,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Clock>
+   <CueList Caption="Cue list" ID="1">
+    <WindowState Visible="True" X="0" Y="0" Width="645" Height="945"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>4294967295</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback/>
+    <Stop/>
+   </CueList>
+   <Frame Caption="Master Fixture dimmers" ID="2">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="645" Y="420" Width="935" Height="520"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Fix 1 Dim" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 2 Dim" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="75" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 3 Dim" ID="19" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="150" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="2">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 4 Dim" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="225" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="3">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 5 Dim" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="300" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="4">0</Channel>
+      <Channel Fixture="4">1</Channel>
+      <Channel Fixture="4">2</Channel>
+      <Channel Fixture="4">3</Channel>
+      <Channel Fixture="4">4</Channel>
+      <Channel Fixture="4">5</Channel>
+      <Channel Fixture="4">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 6 Dim" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="375" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="5">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 7 Dim" ID="23" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="450" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 8 Dim" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="525" Y="35" Width="70" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="7">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 9-12 Dim" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="600" Y="35" Width="80" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="8">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 13-16 Dim" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="685" Y="35" Width="80" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="9">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fix 17-20 Dim" ID="7" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="770" Y="35" Width="80" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="10">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Label Caption="These are the master dimmers, for each fixture and for all" ID="8">
+     <WindowState Visible="True" X="190" Y="470" Width="520" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Label>
+    <Slider Caption="Master Dim" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="855" Y="35" Width="80" Height="415"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">6</Channel>
+      <Channel Fixture="1">6</Channel>
+      <Channel Fixture="2">6</Channel>
+      <Channel Fixture="3">6</Channel>
+      <Channel Fixture="4">6</Channel>
+      <Channel Fixture="5">6</Channel>
+      <Channel Fixture="6">6</Channel>
+      <Channel Fixture="7">6</Channel>
+      <Channel Fixture="8">1</Channel>
+      <Channel Fixture="9">1</Channel>
+      <Channel Fixture="10">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
